@@ -1,0 +1,31 @@
+.filters {
+    width: 300px;
+    flex-shrink: 0;
+    padding: 16px;
+    margin-bottom: auto;
+    box-shadow: $box-shadow;
+
+    &__wrap {
+        margin-bottom: 16px;
+    }
+
+    &__title {
+        margin-bottom: 12px;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    &__checkbox {
+        margin-bottom: 8px;
+    }
+
+    &__button-more {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-size: 14px;
+        color: $blue;
+        text-align: left;
+        cursor: pointer;
+    }
+}

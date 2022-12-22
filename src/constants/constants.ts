@@ -1,0 +1,1 @@
+export const FILTERS_VISSIBLE_AMOUNT = 10
